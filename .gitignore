@@ -3,6 +3,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 # User-specific files
+*.bin
+*.obj
 *.suo
 *.user
 *.git
@@ -32,6 +34,10 @@ Generated\ Files/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 # NUNIT
+*.bin
+*.obj
+*.git
+*.vs
 *.VisualState.xml
 TestResult.xml
 # Build Results of an ATL Project
@@ -48,6 +54,10 @@ artifacts/
 # StyleCop
 StyleCopReport.xml
 # Files built by Visual Studio
+*.bin
+*.obj
+*.git
+*.vs
 *_i.c
 *_p.c
 *_i.h
